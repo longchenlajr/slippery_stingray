@@ -1,0 +1,48 @@
+[global_config]
+  borderless = True
+  scroll_tabbar = True
+  disable_real_transparency = True
+  title_hide_sizetext = True
+  title_transmit_fg_color = "#c1ffd7"
+  title_transmit_bg_color = "#171717"
+  title_receive_fg_color = "#ff7878"
+  title_receive_bg_color = "#bf3f3f"
+  title_inactive_fg_color = "#323232"
+  title_inactive_bg_color = "#171717"
+  inactive_color_offset = 1.0
+  suppress_multiple_term_dialog = True
+  title_font = Noto Looped Lao UI Bold 8
+[keybindings]
+[profiles]
+  [[default]]
+    background_darkness = 0.95
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    font = Inconsolata 17
+    scrollbar_position = hidden
+    palette = "#77767b:#ed333b:#57e389:#f8e45c:#62a0ea:#c061cb:#3584e4:#faebd7:#404040:#f66151:#57e389:#f9f06b:#99c1f1:#dc8add:#1c71d8:#ffffff"
+    use_system_font = False
+  [[pastel]]
+    allow_bold = False
+    background_color = "#15133C"
+    background_darkness = 0.69
+    background_type = transparent
+    cursor_color = "#3d3846"
+    cursor_color_fg = False
+    font = Inconsolata weight=275 24
+    foreground_color = "#deddda"
+    scrollbar_position = hidden
+    palette = "#77767b:#ed333b:#57e389:#f8e45c:#62a0ea:#c061cb:#3584e4:#faebd7:#404040:#f66151:#57e389:#f9f06b:#99c1f1:#dc8add:#1c71d8:#ffffff"
+    use_custom_command = True
+    custom_command = neofetch
+    use_system_font = False
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = default
+[plugins]
